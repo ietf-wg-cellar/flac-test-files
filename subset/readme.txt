@@ -1,13 +1,9 @@
 This readme belongs to a collection of FLAC files that can be
-used to test various FLAC decoder abilities. Below you'll find
-who the original author of each work is and how these works are
-licensed. Each derivative found in this collection is licensed
-under the same license as the original work.
-
-This readme also explains what each file is supposed to test.
+used to test various FLAC decoder abilities. This readme also
+explains what each file is supposed to test.
 
 On Hydrogenaud.io there is a wikipage and a forum discussion
-devoted to this testbench. The wikipage might be useful for 
+devoted to this testbench. The wikipage might be useful for
 comparison to other decoders, and the forum is a good place to
 ask questions. See:
 https://wiki.hydrogenaud.io/index.php?title=FLAC_decoder_testbench
@@ -21,20 +17,11 @@ https://hydrogenaud.io/index.php?topic=121478.0
 ---------------------------------------------------------------
 
 The first 10 files tests 44.1kHz, 16-bit audio with various
-blocksizes that are within subset. These 10 files are
-consecutive parts of the track 'Amnesia' by 'Ehren Starks'
-from the album 'Lines Build Walls' which has been licensed
-under a Creative Commons by-nc-sa v1.0 license:
-https://creativecommons.org/licenses/by-nc-sa/1.0/ and has been
-provided by Magnatune.
+blocksizes that are within subset.
 
 Files 11 through 23 tests the ability to decode FLAC files
-with various features that are within subset but aren't used 
-often. These 12 files are consecutive parts of the track
-'Ladybug Castle' by 'rolemusic' from the album 'III MICROCOMPO
-FamiBoy 80's' by 'Culturachip', which has been licensed under
-a Creative Commons by-nc-sa-4.0 license:
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+with various features that are within subset but aren't used
+often.
 
 - File 11 uses the maximal allowed rice partition order (8)
 - File 12 uses the maximal allowed qlp precision (15)
@@ -51,15 +38,11 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 - File 21 uses a samplerate of 22050Hz
 - File 22 has 12 bits per sample
 - File 23 has 8 bits per sample
-      
+
 Files 24 through 27 test the ability to decode a FLAC file with
 a variable blocksize. This is a subset feature which is
 currently (August 2021) only implemented in the Flake decoder
-and its forks/decendants and is not enabled by default. The two
-files are consecutive parts of the track 'Long Run' by
-'John Egenes' from the album 'Up for Air' provided by Bandcamp
-under Creative Commons by-nc-sa-3.0:
-https://creativecommons.org/licenses/by-nc-sa/3.0/
+and its forks/decendants and is not enabled by default.
 
 With the release of FLAC 1.2.0 in July 2007, the FLAC
 specification was augmented to more clearly signal variable
@@ -71,20 +54,16 @@ specification, which is much harder to detect
 - File 25 uses the current format and is created by a modified
       flake r264 creating smaller blocks
 - File 26 uses the current format and is created by
-      CUETools.Flake 2.1.6 
+      CUETools.Flake 2.1.6
 - File 27 uses the old format and is created by flake 0.11
 
 ---------------------------------------------------------------
-                       Files # 28 - # 37 
+                       Files # 28 - # 37
       'High-resolution' audio, all features within subset
 ---------------------------------------------------------------
 
 Files 28 through 37 test the ability to decode various
-high-resolution FLAC file (96kHz, 24-bit) These files are
-consecutive parts of the track 'The Four of us Are Dying' by
-'Nine Inch Nails' on the album 'The Slip' which is licensed
-under Creative Commons BY-NC-SA-3.0: 
-https://creativecommons.org/licenses/by-nc-sa/3.0/
+high-resolution FLAC file (96kHz, 24-bit)
 
 - File 28 uses default settings
 - File 29 uses the largest allowed blocksize (16384)
@@ -107,9 +86,7 @@ https://creativecommons.org/licenses/by-nc-sa/3.0/
 Files 38 through 43 test the ability to decode various
 multichannel FLAC files. Each file contains a voice description
 of the channels present, so as to see whether the channels are
-decoded in the correct lay-out. These files have been recorded
-by me, Martijn van Beurden, and are licensed Creative Commons
-BY-NC-ND 4.0: https://creativecommons.org/licenses/by-nc-nd/4.0/
+decoded in the correct lay-out.
 
 - File 38 is 3.0-channel (left, right, center)
 - File 39 is 4.0-channel or quadraphonic
@@ -122,13 +99,8 @@ File 44 tests the ability to decode a file with the highest
 possible data input per second, staying within subset and using
 a standard samplerate. It also only uses 32th order predictors
 at the highest possible predictor precision and the largest
-blocksize allowed within the FLAC subset making it especially 
-challenging to decode. This file contains the first 28 seconds 
-of the track 'Star diplomat' by 'Timo Petmanson' on the album
-'Voyage to Neptune' provided by Bandcamp under Creative Commons
-BY-SA-4.0: https://creativecommons.org/licenses/by-sa/4.0/
-The track has been upmixed with Freesurround (also known as
-foo_dsp_fsurround).
+blocksize allowed within the FLAC subset making it especially
+challenging to decode.
 
 ---------------------------------------------------------------
                        Files # 45 - # 59
@@ -136,11 +108,7 @@ foo_dsp_fsurround).
 ---------------------------------------------------------------
 
 Files 45 through 59 test the ability to handle various streams
-with valid but rather unusual or extreme metadata. These files
-are consecutive parts of the track 'Across The Milky Way' by
-'The Ambient Visitor' on the album 'Across The Milky Way'
-provided by Bandcamp under Creative Commons by-nc-sa-3.0:
-https://creativecommons.org/licenses/by-nc-sa/3.0/
+with valid but rather unusual or extreme metadata.
 
 - File 45 has 'unknown number of samples' in STREAMINFO
 - File 46 has maximum and minimum framesize set to 'unknown'
@@ -151,7 +119,7 @@ https://creativecommons.org/licenses/by-nc-sa/3.0/
 - File 51 has an extremely large VORBISCOMMENT block
 - File 52 has an extremely large APPLICATION block
 - File 53 has a CUESHEET block with absurdly many indexes
-- File 54 with the same 8 VORBISCOMMENTs repeated 1000 times
+- File 54 with the same 20 VORBISCOMMENTs repeated 1000 times
 - File 55 has the metadata of track 47-52 combined
 - File 56 has a PICTURE with mimetype image/jpeg
 - File 57 has a PICTURE with mimetype image/png
