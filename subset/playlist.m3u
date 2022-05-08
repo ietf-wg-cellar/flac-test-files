@@ -1,0 +1,64 @@
+#EXTM3U
+01 - blocksize 4096.flac
+02 - blocksize 4608.flac
+03 - blocksize 16.flac
+04 - blocksize 192.flac
+05 - blocksize 254.flac
+06 - blocksize 512.flac
+07 - blocksize 725.flac
+08 - blocksize 1000.flac
+09 - blocksize 1937.flac
+10 - blocksize 2304.flac
+11 - partition order 8.flac
+12 - qlp precision 15 bit.flac
+13 - qlp precision 2 bit.flac
+14 - wasted bits.flac
+15 - only verbatim subframes.flac
+16 - partition order 8 containing escaped partitions.flac
+17 - all fixed orders.flac
+18 - precision search.flac
+19 - samplerate 35467Hz.flac
+20 - samplerate 39kHz.flac
+21 - samplerate 22050Hz.flac
+22 - 12 bit per sample.flac
+23 - 8 bit per sample.flac
+24 - variable blocksize file created with flake revision 264.flac
+25 - variable blocksize file created with flake revision 264, modified to create smaller blocks.flac
+26 - variable blocksize file created with CUETools.Flake 2.1.6.flac
+27 - old format variable blocksize file created with Flake 0.11.flac
+28 - high resolution audio, default settings.flac
+29 - high resolution audio, blocksize 16384.flac
+30 - high resolution audio, blocksize 13456.flac
+31 - high resolution audio, using only 32nd order predictors.flac
+32 - high resolution audio, partition order 8 containing escaped partitions.flac
+33 - samplerate 192kHz.flac
+34 - samplerate 192kHz, using only 32nd order predictors.flac
+35 - samplerate 134560Hz.flac
+36 - samplerate 384kHz.flac
+37 - 20 bit per sample.flac
+38 - 3 channels (3.0).flac
+39 - 4 channels (4.0).flac
+40 - 5 channels (5.0).flac
+41 - 6 channels (5.1).flac
+42 - 7 channels (6.1).flac
+43 - 8 channels (7.1).flac
+44 - 8-channel surround, 192kHz, 24 bit, using only 32nd order predictors.flac
+45 - no total number of samples set.flac
+46 - no min-max framesize set.flac
+47 - only STREAMINFO.flac
+48 - Extremely large SEEKTABLE.flac
+49 - Extremely large PADDING.flac
+50 - Extremely large PICTURE.flac
+51 - Extremely large VORBISCOMMENT.flac
+52 - Extremely large APPLICATION.flac
+53 - CUESHEET with very many indexes.flac
+54 - 1000x repeating VORBISCOMMENT.flac
+55 - file 48-53 combined.flac
+56 - JPG PICTURE.flac
+57 - PNG PICTURE.flac
+58 - GIF PICTURE.flac
+59 - AVIF PICTURE.flac
+60 - mono audio.flac
+61 - predictor overflow check, 16-bit.flac
+62 - predictor overflow check, 20-bit.flac
+63 - predictor overflow check, 24-bit.flac
