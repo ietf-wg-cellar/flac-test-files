@@ -62,3 +62,4 @@
 61 - predictor overflow check, 16-bit.flac
 62 - predictor overflow check, 20-bit.flac
 63 - predictor overflow check, 24-bit.flac
+64 - rice partitions with escape code zero.flac
