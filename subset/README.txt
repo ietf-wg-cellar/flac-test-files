@@ -141,7 +141,7 @@ with valid but rather unusual or extreme metadata.
 - File 59 has a PICTURE with mimetype image/avif
 
 ---------------------------------------------------------------
-                       Files # 60 - # 63
+                       Files # 60 - # 64
                 Miscellaneous, later additions
 ---------------------------------------------------------------
 - File 60 is mono audio
@@ -149,3 +149,4 @@ with valid but rather unusual or extreme metadata.
     characteristics that might trigger overflow if a decoder
     uses 32-bit integers to calculate the predictor where 64-bit
     integers are appropriate
+- File 64 contains rice codes with escape code zero
