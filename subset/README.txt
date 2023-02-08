@@ -1,23 +1,9 @@
-This readme belongs to a collection of FLAC files that can be
-used to test various FLAC decoder abilities. This readme also
-explains what each file is supposed to test.
-
-For all files in this testbench:
-
----------------------------------------------------------------
-FLAC decoder testbench by Martijn van Beurden
-
-To the extent possible under law, the person who associated CC0
-with FLAC decoder testbench has waived all copyright and
-related or neighboring rights to FLAC decoder testbench.
-
-You should have received a copy of the CC0 legalcode along with
-this collection as a file called LICENSE.txt. If not, see
-<http://creativecommons.org/publicdomain/zero/1.0/>
----------------------------------------------------------------
+This README is for the subset files of the FLAC decoder
+testbench. Please read the README in the top level directory
+first.
 
 On Hydrogenaud.io there is a wikipage and a forum discussion
-devoted to this testbench. The wikipage might be useful for
+devoted to these files. The wikipage might be useful for
 comparison to other decoders, and the forum is a good place to
 ask questions. See:
 https://wiki.hydrogenaud.io/index.php?title=FLAC_decoder_testbench
