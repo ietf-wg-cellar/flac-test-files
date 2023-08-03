@@ -56,4 +56,18 @@ and https://hydrogenaud.io/index.php?topic=121478.0
 Certain features of the FLAC format are non-subset or otherwise
 uncommonly used. Decoders might not be able to playback these
 files, but they should detect this inability and preferably
-notify the user rather than crash of freeze.
+notify the user rather than crash of freeze. Read the
+README.txt in the directory uncommon for details on each file.
+
+Note that despite the features being used are uncommon, these
+files are still valid FLAC files.
+
+---------------------------------------------------------------
+                         Group faulty
+             Files with invalid data or corruption
+---------------------------------------------------------------
+
+This group contains files with invalid data and corrupted files
+that might trigger crashes in a decoder. A decoder should not
+crash or freeze reading these files. Read the README.txt in
+the directory faulty for details on each file.
